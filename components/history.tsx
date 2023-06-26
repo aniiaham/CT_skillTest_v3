@@ -1,6 +1,27 @@
 import Image from "next/image";
 import bgHistoryImg from "@/app/assets/historypage-img.svg";
 import HText from "@/components/shared/HText";
+import HumanImg from "@/app/assets/human.svg";
+import MountainsImg from "@/app/assets/mountains.svg";
+
+const imageArray = [
+  {
+    src: HumanImg,
+    alt: "human",
+  },
+  {
+    src: MountainsImg,
+    alt: "mountains",
+  },
+  {
+    src: HumanImg,
+    alt: "human",
+  },
+  {
+    src: MountainsImg,
+    alt: "mountains",
+  },
+];
 
 const History = () => {
   return (
@@ -38,8 +59,17 @@ const History = () => {
           </p>
         </div>
       </div>
-
-      <div className="bg-blue-900/60 w-full h-40"></div>
+      <div className="bg-blue-900/60 w-full mt-10 flex flex-col items-center justify-center p-10">
+        <ul className="flex w-full gap-7 overflow-x-scroll">
+          {imageArray.map((item) => (
+            <Image
+              src={item.src}
+              alt={item.alt}
+              className="w-[220px] h-[120px]"
+            />
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };

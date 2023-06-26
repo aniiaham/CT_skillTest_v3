@@ -8,8 +8,12 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <Navbar />
-      <body>{children}</body>
+      <html lang="en">
+        <body>
+          <Navbar />
+          {children}
+        </body>
+      </html>
     </>
   );
 }
