@@ -59,8 +59,8 @@ const History = () => {
           </p>
         </div>
       </div>
-      <div className="bg-blue-900/60 w-full mt-10 flex flex-col items-center justify-center p-10">
-        <ul className="flex w-full gap-7 overflow-x-scroll">
+      <div className="bg-blue-900/50 w-full mt-10 flex flex-col items-center justify-center p-10">
+        <ul className="flex w-full gap-7 justify-center overflow-x-scroll">
           {imageArray.map((item) => (
             <Image
               src={item.src}
