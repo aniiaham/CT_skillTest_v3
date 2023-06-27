@@ -14,8 +14,8 @@ const HomePage = () => {
         className="-z-50"
       />
       <div className="w-full flex flex-col items-center justify-center font-mono font-semibold text-7xl py-20">
-        <h1 className="text-gray-700">LOSANGELES</h1>
-        <h1 className="text-blue-900">MOUNTAINS</h1>
+        <h1 className="text-[#4D4D4D]">LOSANGELES</h1>
+        <h1 className="text-[#414F6B]">MOUNTAINS</h1>
       </div>
     </main>
   );

@@ -8,7 +8,7 @@ const ScheduleTour = () => {
       <div className="flex flex-col py-10 mx-auto container">
         <div className="flex flex-row w-full gap-6">
           <div className="flex">
-            <span className="text-9xl text-gray-500 font-extrabold h-full">
+            <span className="text-9xl text-[#B0B4BE] font-extrabold h-full">
               02
             </span>
             <div className="flex flex-col justify-end pb-4">
@@ -26,8 +26,8 @@ const ScheduleTour = () => {
           </div>
         </div>
       </div>
-      <div className="bg-blue-900/90 w-full flex flex-col items-start p-4">
-        <div className="flex flex-row gap-8 justify-start items-start ml-10 text-gray-300 text-xl font-bold">
+      <div className="bg-[#414F6B] w-full flex flex-col items-start p-4">
+        <div className="flex flex-row gap-8 justify-start items-start ml-10 text-[#B0B4BE] text-xl font-bold">
           <p>MOUNTAIN 1</p>
           <p>MOUNTAIN 2</p>
         </div>
@@ -42,7 +42,7 @@ const ScheduleTour = () => {
           style={{ objectFit: "cover" }}
           className="-z-50"
         />
-        <div className="flex items-center max-w-3xl justify-center pt-10 ">
+        <div className="flex items-center max-w-3xl justify-center pt-40 ">
           <div className="bg-slate-100/80 flex flex-col items-start justify-center w-full max-w-sm p-6">
             <HText>SCHEDULE</HText>
             <div className="flex flex-col gap-6 w-full max-w-xl">
@@ -82,6 +82,11 @@ const ScheduleTour = () => {
           </div>
         </div>
       </div>
+      <footer className="bg-[#414F6B] bottom-0 w-full p-10">
+        <p className="text-[#5D6F94] flex justify-end">
+          COPYRIGHT 2016.ALL RIGHTS RESERVED.
+        </p>
+      </footer>
     </section>
   );
 };

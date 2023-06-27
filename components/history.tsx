@@ -40,12 +40,12 @@ const History = () => {
       />
       <div className="flex flex-col w-full py-20  container mx-auto">
         <div className="flex flex-row w-full">
-          <span className="text-9xl text-gray-500 font-extrabold h-full">
+          <span className="text-9xl text-[#6D7D97] font-extrabold h-full">
             01
           </span>
           <div className="flex flex-col justify-end pb-3">
             <HText>HISTORY</HText>
-            <div className="h-5 w-5 bg-slate-700/20" />
+            <div className="h-5 w-5 bg-[#6D7D97]" />
           </div>
         </div>
         <div className="flex flex-col items-center">
@@ -59,7 +59,7 @@ const History = () => {
           </p>
         </div>
       </div>
-      <div className="bg-blue-900/50 w-full mt-10 flex flex-col items-center justify-center p-10">
+      <div className="bg-[#414F6B]/50 w-full mt-10 flex flex-col items-center justify-center p-10">
         <ul className="flex w-full gap-7 justify-center overflow-x-scroll">
           {imageArray.map((item) => (
             <Image
