@@ -28,11 +28,11 @@ const ScheduleTour = () => {
       </div>
       <div className="bg-[#414F6B] w-full flex flex-col items-start p-4">
         <div className="flex flex-row gap-8 justify-start items-start ml-10 text-[#B0B4BE] text-xl font-bold">
-          <p>MOUNTAIN 1</p>
+          <p className="underline underline-offset-2">MOUNTAIN 1</p>
           <p>MOUNTAIN 2</p>
         </div>
       </div>
-      <div className="w-full h-screen relative">
+      <div className="w-full h-[75vh] relative">
         <Image
           src={ScheduleTourImg}
           alt="tour mauntains"
@@ -84,7 +84,7 @@ const ScheduleTour = () => {
       </div>
       <footer className="bg-[#414F6B] bottom-0 w-full p-10">
         <p className="text-[#5D6F94] flex justify-end">
-          COPYRIGHT 2016.ALL RIGHTS RESERVED.
+          COPYRIGHT 2016. ALL RIGHTS RESERVED.
         </p>
       </footer>
     </section>
