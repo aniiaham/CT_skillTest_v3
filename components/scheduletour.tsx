@@ -27,7 +27,7 @@ const ScheduleTour = () => {
         </div>
       </div>
       <div className="bg-blue-900/90 w-full flex flex-col items-start p-4">
-        <div className="flex flex-row gap-8 justify-start items-start ml-8 text-gray-300 text-xl font-bold">
+        <div className="flex flex-row gap-8 justify-start items-start ml-10 text-gray-300 text-xl font-bold">
           <p>MOUNTAIN 1</p>
           <p>MOUNTAIN 2</p>
         </div>
@@ -42,9 +42,43 @@ const ScheduleTour = () => {
           style={{ objectFit: "cover" }}
           className="-z-50"
         />
-        <div>
-          <div className="h-60 w-80 bg-slate-700/20">
+        <div className="flex items-center max-w-3xl justify-center pt-10 ">
+          <div className="bg-slate-100/80 flex flex-col items-start justify-center w-full max-w-sm p-6">
             <HText>SCHEDULE</HText>
+            <div className="flex flex-col gap-6 w-full max-w-xl">
+              <div className="grid">
+                <div className="grid grid-cols-2">
+                  <p className="col-span-1 col-start-1 col-end-1">
+                    25 Nov 2016
+                  </p>
+                  <p className="col-span-1 col-start-2 col-end-2">
+                    Vactibulum sivorre
+                  </p>
+                </div>
+                <div className="grid grid-cols-2">
+                  <p className="col-span-1 col-start-1 col-end-1">
+                    28 Nov 2016
+                  </p>
+                  <p className="col-span-1 col-start-2 col-end-2">
+                    Vactibulum sivorre
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2">
+                <p className="col-span-1 col-start-1 col-end-1">18 Dec 016</p>
+                <p className="col-span-1 col-start-2 col-end-2">
+                  Vactibulum sivorre
+                </p>
+              </div>
+
+              <div className="grid grid-cols-2">
+                <p className="col-span-1 col-start-1 col-end-1">7 Jan 2017</p>
+                <p className="col-span-1 col-start-2 col-end-2">
+                  Vactibulum sivorre
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
